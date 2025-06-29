@@ -1,4 +1,4 @@
-# 🎬 Computer Vision — Individual Assignment  
+# 🎬 Computer Vision - opencv
 _Effects & Object Manipulation with OpenCV_
 
 This project processes a one-minute clip from **“tarantino1.mp4”** and demonstrates a toolbox of classic computer-vision techniques:
