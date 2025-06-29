@@ -37,8 +37,11 @@ cv-video-editing/
 └── README.md
 ```
 
+---
+
 ## 🚀 Quick-start
 
+```bash
 # Clone & enter
 git clone https://github.com/georgeforoglou/cv-video-editing.git
 cd cv-video-editing
@@ -64,6 +67,9 @@ python src/automatic_red_ball_detection.py            # writes data/ball_templat
 
 2) Run the main pipeline — output saved as output.mp4
 python src/Individual.py
+```
+
+---
 
 ## 📝 License
 Released under the MIT License.
