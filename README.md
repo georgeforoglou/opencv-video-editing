@@ -42,16 +42,16 @@ cv-video-editing/
 git clone https://github.com/georgeforoglou/cv-video-editing.git
 cd cv-video-editing
 
-# If Git LFS is not installed, do it once:
-#   sudo apt-get install git-lfs   # Debian/Ubuntu
-#   brew install git-lfs           # macOS
+If Git LFS is not installed, do it once:
+  sudo apt-get install git-lfs   # Debian/Ubuntu
+  brew install git-lfs           # macOS
 git lfs pull                       # downloads the video
 
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-# 1) Generate / update the ball template (optional)
+1) Generate / update the ball template (optional)
 python src/automatic_red_ball_detection.py            # writes data/ball_template.jpg
 
-# 2) Run the main pipeline — output saved as output.mp4
+2) Run the main pipeline — output saved as output.mp4
 python src/Individual.py
