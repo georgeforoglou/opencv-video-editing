@@ -48,21 +48,12 @@ cv-video-editing/
 git clone https://github.com/georgeforoglou/cv-video-editing.git
 cd cv-video-editing
 
-# 1) One-time Git LFS setup (skip if already installed)
-#    macOS:   brew install git-lfs
-#    Ubuntu:  sudo apt-get install git-lfs
-git lfs install
-git lfs pull          # fetches tarantino1.mp4
-
-# 2) Create and activate a virtual env
+# Create and activate a virtual env
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
-# 3) (Optional) Re-crop the ball template
-python src/automatic_red_ball_detection.py   # writes data/ball_template.jpg
-
-# 4) Run the pipeline – output is saved as output.mp4
+# Run the pipeline – output is saved as output.mp4
 python src/Individual.py
 
 python src/automatic_red_ball_detection.py            # writes data/ball_template.jpg
