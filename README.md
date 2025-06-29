@@ -15,6 +15,8 @@ This project processes a one-minute clip from **“tarantino1.mp4”** and demon
 
 The pipeline runs in real-time on a laptop CPU.
 
+You can see the final results in **“tarantino1.mp4”**!
+
 ---
 
 ## 📂 Project layout
